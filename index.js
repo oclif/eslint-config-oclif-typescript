@@ -17,6 +17,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-var-requires": "off",
     "no-unused-expressions": "off",
-    "node/no-unsupported-features/es-syntax": "off"
+    "node/no-unsupported-features/es-syntax": "off",
+    "unicorn/no-await-in-loop": "off",
   }
 }
