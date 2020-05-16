@@ -17,6 +17,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-var-requires": "off",
     "no-unused-expressions": "off",
-    "node/no-unsupported-features/es-syntax": "off"
+    "node/no-unsupported-features/es-syntax": "off",
+    "valid-jsdoc": ["warn", { "requireReturnType": false, "requireParamType": false }]
   }
 }
