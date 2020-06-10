@@ -19,5 +19,6 @@ module.exports = {
     "no-unused-expressions": "off",
     "node/no-unsupported-features/es-syntax": "off",
     "unicorn/no-await-in-loop": "off",
+    "valid-jsdoc": ["warn", { "requireReturnType": false, "requireParamType": false }]
   }
 }
