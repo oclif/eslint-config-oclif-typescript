@@ -33,7 +33,7 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "build": "rm -rf lib && tsc",
-    "pretest": "yarn build --noEmit",
+    "pretest": "yarn build --noEmit && tsc -p test --noEmit",
     "posttest": "yarn lint"
   }
 }
