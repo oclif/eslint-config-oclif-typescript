@@ -50,7 +50,7 @@ jobs:
 
 workflows:
   version: 2
-  "eslint-config-oclif-typescript:
+  "eslint-config-oclif-typescript":
     jobs:
       - node-latest
       - node-12
