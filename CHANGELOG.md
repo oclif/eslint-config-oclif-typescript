@@ -1,3 +1,25 @@
+# [1.0.0](https://github.com/oclif/eslint-config-oclif-typescript/compare/v0.2.0...v1.0.0) (2021-09-21)
+
+
+### Bug Fixes
+
+* circleci context ([4fd6920](https://github.com/oclif/eslint-config-oclif-typescript/commit/4fd692031be2ba1d6a68e5eb7a4fd29bec25bbbd))
+* semantic-release will release on main branch now ([88e8eb8](https://github.com/oclif/eslint-config-oclif-typescript/commit/88e8eb8901c7edab7a19a9aba836ad531d4984ef))
+
+
+* BREAKING CHANGE: update deps to latest eslint stuff (#28) ([feb3c5d](https://github.com/oclif/eslint-config-oclif-typescript/commit/feb3c5d7eeb2f4f7dad08c17a12d90f85542e9cd)), closes [#28](https://github.com/oclif/eslint-config-oclif-typescript/issues/28)
+
+
+### BREAKING CHANGES
+
+* update deps to latest eslint stuff
+
+* Update from node 10 to 14
+
+* Update ci.yml
+
+* Update config.yml
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/oclif/eslint-config-oclif/compare/v1.5.0...v1.5.1) (2018-05-31)
 
