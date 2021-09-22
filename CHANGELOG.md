@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/oclif/eslint-config-oclif-typescript/compare/v1.0.0...v1.0.1) (2021-09-22)
+
+
+### Bug Fixes
+
+* update eslint dependencies that should have been updated with pr [#28](https://github.com/oclif/eslint-config-oclif-typescript/issues/28) ([2fa3aec](https://github.com/oclif/eslint-config-oclif-typescript/commit/2fa3aec4702f3fbfea186d7eec83125ec31fabe9))
+
 # [1.0.0](https://github.com/oclif/eslint-config-oclif-typescript/compare/v0.2.0...v1.0.0) (2021-09-21)
 
 
