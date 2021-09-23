@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/oclif/eslint-config-oclif-typescript/compare/v1.0.1...v1.0.2) (2021-09-23)
+
+
+### Bug Fixes
+
+* allow eslint node plugin to detect .ts files ([#30](https://github.com/oclif/eslint-config-oclif-typescript/issues/30)) ([7a22dfc](https://github.com/oclif/eslint-config-oclif-typescript/commit/7a22dfc7be5c0882b300abf3d0f9a6832489eba2))
+
 ## [1.0.1](https://github.com/oclif/eslint-config-oclif-typescript/compare/v1.0.0...v1.0.1) (2021-09-22)
 
 
