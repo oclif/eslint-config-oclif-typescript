@@ -2,21 +2,21 @@
   "name": "eslint-config-oclif-typescript",
   "description": "eslint config for Typscript'd oclif",
   "version": "1.0.2",
-  "author": "oclif",
+  "author": "Salesforce",
   "bugs": "https://github.com/oclif/eslint-config-oclif-typescript/issues",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
-    "eslint-config-xo-space": "^0.29.0",
-    "eslint-plugin-mocha": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint-config-xo-space": "^0.34.0",
+    "eslint-plugin-mocha": "^10.1.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "typescript": "^4"
+    "eslint": "^8.49.0",
+    "typescript": "^4.9.5"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
   },
   "files": [
     "/index.js"
