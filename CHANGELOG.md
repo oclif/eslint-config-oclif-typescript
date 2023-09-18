@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/oclif/eslint-config-oclif-typescript/compare/2.0.0...2.0.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* esm imports ([d1d350d](https://github.com/oclif/eslint-config-oclif-typescript/commit/d1d350dd15e05ba5135c1b8328f111b9ed3bdc0a))
+
+
+
 # [2.0.0](https://github.com/oclif/eslint-config-oclif-typescript/compare/v1.0.2...2.0.0) (2023-09-18)
 
 
