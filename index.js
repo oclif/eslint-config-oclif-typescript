@@ -2,10 +2,22 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:node/recommended"
+    "plugin:node/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
   ],
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import'],
   rules: {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -21,9 +33,8 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "off",
     "no-unused-expressions": "off",
     "node/no-unsupported-features/es-syntax": "off",
-    "node/no-missing-import": ["error", {
-      "tryExtensions": [".js", ".ts"]
-    }],
+    "node/no-missing-import": "off",
+    "import/no-unresolved": "error",
     "valid-jsdoc": ["warn", { "requireReturnType": false, "requireParamType": false }]
   }
 }
