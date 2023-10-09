@@ -1,40 +1,56 @@
 module.exports = {
   extends: [
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:node/recommended",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:node/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+    'plugin:perfectionist/recommended-natural',
   ],
   settings: {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
-    "import/resolver": {
-      "typescript": {
-        "alwaysTryTypes": true
-      }
-    }
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
   },
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'import'],
   rules: {
-    "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-namespace": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
+    '@typescript-eslint/no-unused-vars': [
+      'error',
       {
-        "argsIgnorePattern": "^_"
-      }
+        argsIgnorePattern: '^_',
+      },
     ],
-    "@typescript-eslint/no-var-requires": "off",
-    "no-unused-expressions": "off",
-    "node/no-unsupported-features/es-syntax": "off",
-    "node/no-missing-import": "off",
-    "import/no-unresolved": "error",
-    "valid-jsdoc": ["warn", { "requireReturnType": false, "requireParamType": false }]
-  }
+    '@typescript-eslint/no-var-requires': 'off',
+    'no-unused-expressions': 'off',
+    'node/no-unsupported-features/es-syntax': 'off',
+    'node/no-missing-import': 'off',
+    'import/no-unresolved': 'error',
+    'valid-jsdoc': ['warn', {requireReturnType: false, requireParamType: false}],
+    'perfectionist/sort-classes': [
+      'error',
+      {
+        order: 'asc',
+        type: 'alphabetical',
+        groups: [
+          'index-signature',
+          'static-property',
+          'property',
+          'private-property',
+          'constructor',
+          'static-method',
+          'static-private-method',
+          ['get-method', 'set-method'],
+          'method',
+          'private-method',
+          'unknown',
+        ],
+      },
+    ],
+  },
 }
