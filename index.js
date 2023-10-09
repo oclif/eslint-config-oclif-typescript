@@ -7,16 +7,6 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:perfectionist/recommended-natural',
   ],
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-    'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-      },
-    },
-  },
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'import'],
   rules: {
@@ -27,16 +17,13 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 'off',
-    'no-unused-expressions': 'off',
-    'node/no-unsupported-features/es-syntax': 'off',
-    'node/no-missing-import': 'off',
     'import/no-unresolved': 'error',
-    'valid-jsdoc': ['warn', {requireReturnType: false, requireParamType: false}],
+    'no-unused-expressions': 'off',
+    'node/no-missing-import': 'off',
+    'node/no-unsupported-features/es-syntax': 'off',
     'perfectionist/sort-classes': [
       'error',
       {
-        order: 'asc',
-        type: 'alphabetical',
         groups: [
           'index-signature',
           'static-property',
@@ -50,7 +37,20 @@ module.exports = {
           'private-method',
           'unknown',
         ],
+        order: 'asc',
+        type: 'alphabetical',
       },
     ],
+    'valid-jsdoc': ['warn', {requireParamType: false, requireReturnType: false}],
+  },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
   },
 }
