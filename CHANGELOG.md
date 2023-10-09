@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/oclif/eslint-config-oclif-typescript/compare/2.0.1...3.0.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* force 3.0.0 release ([f3a5ae2](https://github.com/oclif/eslint-config-oclif-typescript/commit/f3a5ae23c304503092262fbf624efa4407fa6311))
+
+
+
 ## [2.0.1](https://github.com/oclif/eslint-config-oclif-typescript/compare/2.0.0...2.0.1) (2023-09-18)
 
 
