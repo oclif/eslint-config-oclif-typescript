@@ -1,3 +1,12 @@
+## [3.0.5](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.4...3.0.5) (2023-10-11)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-import-resolver-typescript from 3.6.0 to 3.6.1 ([#63](https://github.com/oclif/eslint-config-oclif-typescript/issues/63)) ([cd5c57b](https://github.com/oclif/eslint-config-oclif-typescript/commit/cd5c57b03bda69d2ffe25121e9ddfe9af4063231))
+
+
+
 ## [3.0.4](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.3...3.0.4) (2023-10-10)
 
 
