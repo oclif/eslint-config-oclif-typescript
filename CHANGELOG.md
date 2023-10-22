@@ -1,3 +1,12 @@
+## [3.0.8](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.7...3.0.8) (2023-10-22)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 6.7.5 to 6.8.0 ([#74](https://github.com/oclif/eslint-config-oclif-typescript/issues/74)) ([96819d9](https://github.com/oclif/eslint-config-oclif-typescript/commit/96819d98a6575ba5a22f47a798a77871321d49e5))
+
+
+
 ## [3.0.7](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.6...3.0.7) (2023-10-22)
 
 
