@@ -1,3 +1,12 @@
+## [3.0.10](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.9...3.0.10) (2023-10-29)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.28.1 to 2.29.0 ([#78](https://github.com/oclif/eslint-config-oclif-typescript/issues/78)) ([6e717b1](https://github.com/oclif/eslint-config-oclif-typescript/commit/6e717b1c21460ca5ba16fd60544e2cb43197a020))
+
+
+
 ## [3.0.9](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.8...3.0.9) (2023-10-29)
 
 
