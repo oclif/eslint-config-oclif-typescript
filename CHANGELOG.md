@@ -1,3 +1,12 @@
+## [3.0.18](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.17...3.0.18) (2023-11-19)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-perfectionist from 2.2.0 to 2.4.0 ([#86](https://github.com/oclif/eslint-config-oclif-typescript/issues/86)) ([b0e2512](https://github.com/oclif/eslint-config-oclif-typescript/commit/b0e2512e95c884e18233295b85efc69180b77592))
+
+
+
 ## [3.0.17](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.16...3.0.17) (2023-11-19)
 
 
