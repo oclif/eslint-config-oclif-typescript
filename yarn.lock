@@ -194,7 +194,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/utils@6.11.0", "@typescript-eslint/utils@^6.7.5":
+"@typescript-eslint/utils@6.11.0", "@typescript-eslint/utils@^6.10.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.11.0.tgz#11374f59ef4cea50857b1303477c08aafa2ca604"
   integrity sha512-p23ibf68fxoZy605dc0dQAEoUsoiNoP3MD9WQGiHLDuTSOuqoTsa4oAy+h3KDkTcxbbfOtUjb9h3Ta0gT4ug2g==
@@ -650,12 +650,12 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-perfectionist@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-2.2.0.tgz#a1b1f1407ce9bc20a4f0e2b8113fb84e5b9dfb9f"
-  integrity sha512-/nG2Uurd6AY7CI6zlgjHPOoiPY8B7EYMUWdNb5w+EzyauYiQjjD5lQwAI1FlkBbCCFFZw/CdZIPQhXumYoiyaw==
+eslint-plugin-perfectionist@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-2.4.0.tgz#9a261c2b35c79fd581261888c64d711f96de7395"
+  integrity sha512-til+vyf56wAUgFv5guBA1Zo5lTw9xj2kCeK/g+9NBtsRy1rkGrlqnvxYNuFExcK3VsPhUUtx5UdScEDz9ahQ5Q==
   dependencies:
-    "@typescript-eslint/utils" "^6.7.5"
+    "@typescript-eslint/utils" "^6.10.0"
     minimatch "^9.0.3"
     natural-compare-lite "^1.4.0"
 
