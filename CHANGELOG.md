@@ -1,3 +1,12 @@
+## [3.0.36](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.35...3.0.36) (2024-01-14)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 6.18.0 to 6.18.1 ([#110](https://github.com/oclif/eslint-config-oclif-typescript/issues/110)) ([91cdd9e](https://github.com/oclif/eslint-config-oclif-typescript/commit/91cdd9e94f4d962115abadb82c5b1e2395ed165e))
+
+
+
 ## [3.0.35](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.34...3.0.35) (2024-01-07)
 
 
