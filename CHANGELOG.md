@@ -1,3 +1,12 @@
+## [3.0.42](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.41...3.0.42) (2024-02-02)
+
+
+### Bug Fixes
+
+* use typescript-eslint/no-useless-constructor ([#116](https://github.com/oclif/eslint-config-oclif-typescript/issues/116)) ([8ccacac](https://github.com/oclif/eslint-config-oclif-typescript/commit/8ccacac33354f2ec4f2ae66c96dee6827b00dd99))
+
+
+
 ## [3.0.41](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.40...3.0.41) (2024-01-28)
 
 
