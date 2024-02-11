@@ -1,3 +1,12 @@
+## [3.0.47](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.46...3.0.47) (2024-02-11)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-config-xo-space from 0.34.0 to 0.35.0 ([#119](https://github.com/oclif/eslint-config-oclif-typescript/issues/119)) ([03adfd8](https://github.com/oclif/eslint-config-oclif-typescript/commit/03adfd8e0e1e9878debf3f8eb0454569e393fa75))
+
+
+
 ## [3.0.46](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.45...3.0.46) (2024-02-11)
 
 
