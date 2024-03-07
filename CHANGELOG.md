@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.48...3.1.0) (2024-03-07)
+
+
+### Features
+
+* use eslint-plugin-n ([cabf2be](https://github.com/oclif/eslint-config-oclif-typescript/commit/cabf2be670b855119cd5d6b78216dbb222b51581))
+
+
+
 ## [3.0.48](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.0.47...3.0.48) (2024-02-18)
 
 
