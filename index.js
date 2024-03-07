@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:node/recommended',
+    'plugin:n/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
     'plugin:perfectionist/recommended-natural',
@@ -19,10 +19,10 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/no-var-requires': 'off',
     'import/no-unresolved': 'error',
+    'n/no-missing-import': 'off',
+    'n/no-unsupported-features/es-syntax': 'off',
     'no-unused-expressions': 'off',
     'no-useless-constructor': 'off',
-    'node/no-missing-import': 'off',
-    'node/no-unsupported-features/es-syntax': 'off',
     'perfectionist/sort-classes': [
       'error',
       {
