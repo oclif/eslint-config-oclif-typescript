@@ -627,10 +627,10 @@ eslint-plugin-n@^15:
     resolve "^1.22.1"
     semver "^7.3.8"
 
-eslint-plugin-perfectionist@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-2.6.0.tgz#3dcc20abc141da7ff896ac0f4cb3a0370371fbd9"
-  integrity sha512-hee0Fu5825v+WTIhrRIJdWO8biUgm9O+c4Q1AEXIIGsXDHrLv5cdXfVUdnQcYgGtI/4X+tdFu69iVofHCIkvtw==
+eslint-plugin-perfectionist@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-2.7.0.tgz#28ae9d41813677ad5a19b0682c29090d7bbaa871"
+  integrity sha512-RpSMc0T0DT9DlOj4APzwlAjCqQMxFdsIYlupe73eDkKLn1mMK7fVw2z3nj2y822szKOpvHA7bDa56ySOlr4GXw==
   dependencies:
     "@typescript-eslint/utils" "^6.13.0"
     minimatch "^9.0.3"
