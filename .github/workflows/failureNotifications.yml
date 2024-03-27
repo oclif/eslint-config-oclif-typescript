@@ -2,8 +2,8 @@ name: failureNotifications
 on:
   workflow_run:
     workflows:
-      - create-github-release
       - publish
+      - create-github-release
     types:
       - completed
 jobs:

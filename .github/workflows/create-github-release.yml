@@ -4,19 +4,17 @@ on:
   push:
     branches:
       - main
-      # point at specific branches, or a naming convention via wildcard
       - prerelease/**
     tags-ignore:
-      - '*'
+      - "*"
   workflow_dispatch:
     inputs:
       prerelease:
         type: string
-        description: 'Name to use for the prerelease: beta, dev, etc. NOTE: If this is already set in the package.json, it does not need to be passed in here.'
+        description: "Name to use for the prerelease: beta, dev, etc. NOTE: If this is already set in the package.json, it does not need to be passed in here."
 
 jobs:
   release:
-    # this job will throw if prerelease is true but it doesn't have a prerelease-looking package.json version
     uses: salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main
     secrets:
       SVC_CLI_BOT_GITHUB_TOKEN: ${{ secrets.SVC_CLI_BOT_GITHUB_TOKEN }}
