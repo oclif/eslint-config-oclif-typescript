@@ -1,3 +1,13 @@
+## [3.1.5](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.1.4...3.1.5) (2024-04-15)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-mocha from 10.4.1 to 10.4.2 ([#132](https://github.com/oclif/eslint-config-oclif-typescript/issues/132)) ([4a19629](https://github.com/oclif/eslint-config-oclif-typescript/commit/4a19629f76507848f0ea239e0babf149595db57b))
+* **deps:** bump eslint-plugin-perfectionist from 2.8.0 to 2.9.0 ([#131](https://github.com/oclif/eslint-config-oclif-typescript/issues/131)) ([bbeb29f](https://github.com/oclif/eslint-config-oclif-typescript/commit/bbeb29ff8f3b0141d853289e51af1881b30fbc05))
+
+
+
 ## [3.1.4](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.1.3...3.1.4) (2024-04-08)
 
 
