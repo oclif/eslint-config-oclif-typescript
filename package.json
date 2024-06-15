@@ -12,7 +12,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-mocha": "^10.4.3",
     "eslint-plugin-n": "^15",
-    "eslint-plugin-perfectionist": "^2.10.0"
+    "eslint-plugin-perfectionist": "^2.11.0"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
