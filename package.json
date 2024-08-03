@@ -10,7 +10,7 @@
     "eslint-config-xo-space": "^0.35.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-mocha": "^10.4.3",
+    "eslint-plugin-mocha": "^10.5.0",
     "eslint-plugin-n": "^15",
     "eslint-plugin-perfectionist": "^2.11.0"
   },
