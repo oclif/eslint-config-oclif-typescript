@@ -1,3 +1,12 @@
+## [3.1.14](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.1.13...3.1.14) (2025-01-28)
+
+
+### Bug Fixes
+
+* deprecate library ([98de9a0](https://github.com/oclif/eslint-config-oclif-typescript/commit/98de9a022374cbf8f5cea1f104451555d88de1cf))
+
+
+
 ## [3.1.13](https://github.com/oclif/eslint-config-oclif-typescript/compare/3.1.12...3.1.13) (2024-12-08)
 
 
